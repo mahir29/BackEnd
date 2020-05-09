@@ -22,6 +22,7 @@ const connect = mongoose.connect(url,{ useNewUrlParser: true ,useUnifiedTopology
 
 connect.then((db) => {
     console.log("Connected correctly to server");
+    console.log(db);
 }, (err) => { console.log(err); });
 
 var app = express();

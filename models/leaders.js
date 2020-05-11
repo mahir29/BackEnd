@@ -32,6 +32,6 @@ const leaderSchema=new Schema({
     timestamps: true
 });
 
-var Leaders=mongoose.model('leadrers', leaderSchema);
+var Leaders=mongoose.model('leaders', leaderSchema);
 
 module.exports=Leaders;
